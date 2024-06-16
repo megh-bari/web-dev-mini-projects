@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        body {
+            background-color: #1B1B1B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: white;
+            font-family: cursive;
+            margin: 0;
+        }
+
+        .box {
+            background-color: white;
+            text-align: center;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: cursive;
+            border-radius: 12px;
+            height: 100px;
+            width: 400px;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+        }
+
+        #box1 {
+            transition-property: all;
+        }
+
+        #box1:hover {
+            background-color: #990099;
+            width: 200px;
+            color: white;
+        }
+
+        #box2 {
+            transition-property: width;
+            transition-timing-function: ease-in;
+        }
+
+        #box2:hover {
+            background-color: #990099;
+            width: 200px;
+            color: white;
+        }
+
+        #box3 {
+            transition-property: height;
+            transition-timing-function: ease-in-out;
+        }
+
+        #box3:hover {
+            background-color: #990099;
+            height: 200px;
+            color: white;
+        }
+
+        #box4 {
+            transition-property: margin;
+            transition-timing-function: ease-in-out;
+        }
+
+        #box4:hover {
+            background-color: #990099;
+            margin-top: 100px;
+            color: white;
+        }
+
+        @media screen and (max-width: 380px) {
+            .box {
+                max-width: 300px;
+            }
+
+            #box1:hover,
+            #box2:hover {
+                width: 200px;
+            }
+        }
+
+        @media screen and (max-width: 325px) {
+            .box {
+                max-width: 200px;
+            }
+
+            #box1:hover,
+            #box2:hover {
+                width: 100px;
+            }
+
+            #box4:hover {
+                margin-top: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Transition Effect</h2>
+    <div class="box" id="box1">
+        Hover to see transition-property: all
+    </div>
+    <div class="box" id="box2">
+        Hover to see transition-property: width
+    </div>
+    <div class="box" id="box3">
+        Hover to see transition-property: height
+    </div>
+    <div class="box" id="box4">
+        Hover to see transition-property: margin
+    </div>
+</body>
+
+</html>
