@@ -6,13 +6,13 @@ This repository contains a collection of small web development projects demonstr
 1. Clone the repository:
 <pre>
      <code>
-         kd
+     git clone https://github.com/megh-bari/web-dev-mini-projects.git)
      </code>
 </pre>
 2. Navigate to the Project Directory:
 <pre>
      <code>
-         cd web-dev-mini-projects
+     cd web-dev-mini-projects
      </code>
 </pre>
 3. Open the Project:
