@@ -1,4 +1,4 @@
-## Project 1: CSS Transitions
+## Project: CSS Transitions
 
 A webpage showcasing different CSS transitions. Each box demonstrates a unique transition effect when hovered over, including changes in all properties, width, height, and margin.
 
