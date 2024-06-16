@@ -4,17 +4,17 @@ This repository contains a collection of small web development projects demonstr
 
 ## Getting Started
 1. Clone the repository:
-    <pre>
-    <code>
-https://github.com/megh-bari/web-dev-mini-projects.git
-    </code>
-    </pre>
+<pre>
+     <code>
+         kd
+     </code>
+</pre>
 2. Navigate to the Project Directory:
-    <pre>
-    <code>
-cd web-dev-mini-projects
-    </code>
-    </pre>
+<pre>
+     <code>
+         cd web-dev-mini-projects
+     </code>
+</pre>
 3. Open the Project:
 - Navigate to the project folder.
 - Open the `index.html` file in your preferred web browser to view the CSS transitions project.
