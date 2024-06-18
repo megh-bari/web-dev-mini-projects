@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transform</title>
+    <title>3D Transform</title>
     <style>
-         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         * {
             margin: 0;
             padding: 0;
@@ -43,6 +43,7 @@
             text-align: center;
             font-family: "Poppins", sans-serif;
             font-weight: 500;
+            font-size: 14px;
         }
 
         .credit {
@@ -54,76 +55,83 @@
 
         #box1:hover {
             color: white;
-            transform: skew(45deg);
+            transform: rotateX(45deg);
             background-color: #990099;
         }
 
         #box2:hover {
             color: white;
-            transform: skew(-45deg);
+            transform: rotateY(45deg);
             background-color: #990099;
         }
 
         #box3:hover {
             color: white;
-            transform: skewY(45deg);
+            transform: rotateZ(45deg);
             background-color: #990099;
         }
 
         #box4:hover {
             color: white;
-            transform: skewY(-45deg);
+            transform: translateX(100px);
             background-color: #990099;
         }
 
         #box5:hover {
             color: white;
-            transform: rotate(45deg);
+            transform: translateY(100px);
             background-color: #990099;
         }
 
         #box6:hover {
             color: white;
-            transform: rotate(-45deg);
+            transform: perspective(200px) translateZ(100px);
             background-color: #990099;
         }
 
         #box7:hover {
             color: white;
-            transform: scale(1.5);
+            transform: perspective(200px) translateZ(-100px);
             background-color: #990099;
         }
 
         #box8:hover {
             color: white;
-            transform: scale(-1.5);
+            transform: scaleX(1.5);
             background-color: #990099;
         }
 
         #box9:hover {
             color: white;
-            transform: scaleX(1.5);
+            transform: scaleY(1.5);
             background-color: #990099;
         }
 
         #box10:hover {
             color: white;
-            transform: scaleY(1.5);
+            transform: perspective(300px) rotateY(30deg) scaleZ(5);
             background-color: #990099;
         }
 
         #box11:hover {
             color: white;
-            transform: scaleX(-1.5);
+            transform: perspective(300px) rotateY(-30deg) scaleZ(5);
             background-color: #990099;
         }
 
         #box12:hover {
             color: white;
-            transform: scaleY(-1.5);
+            transform: perspective(300px) rotateX(30deg) scaleZ(5);
+
             background-color: #990099;
         }
 
+        footer>p {
+            text-align: center;
+            margin: 20px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
 
         @media only screen and (max-width:430px) {
             .container {
@@ -137,48 +145,55 @@
 </head>
 
 <body>
-    <h1> 2D CSS Transform
+    <h1> 3D CSS Transform
         <p class="credit">Created by &copy;Megh Bari</p>
 
     </h1>
     <div class="container">
         <div class="box" id="box1">
-            <p>Hover too see transform: skew(45deg)</p>
+            <p>Hover too see transform: rotateX(45deg)</p>
         </div>
         <div class="box" id="box2">
-            <p>Hover too see transform: skew(-45deg)</p>
+            <p>Hover too see transform: rotateY(45deg)</p>
         </div>
         <div class="box" id="box3">
-            <p>Hover too see transform: skewY(45deg)</p>
+            <p>Hover too see transform: rotateZ(45deg)</p>
         </div>
         <div class="box" id="box4">
-            <p>Hover too see transform: skewY(-45deg)</p>
+            <p>Hover too see transform: translateX(100px)</p>
         </div>
         <div class="box" id="box5">
-            <p>Hover too see transform: rotate(45deg);</p>
+            <p>Hover too see transform: translateY(100px)</p>
         </div>
         <div class="box" id="box6">
-            <p>Hover too see transform: rotate(-45deg);</p>
+            <p>Hover too see transform: perspective(200px) translateZ(100px)</p>
         </div>
         <div class="box" id="box7">
-            <p>Hover too see transform: scale(1.5);</p>
+            <p>Hover too see transform: transform: perspective(200px) translateZ(-100px)</p>
         </div>
         <div class="box" id="box8">
-            <p>Hover too see transform: scale(-1.5);</p>
+            <p>Hover too see transform: scaleX(1.5)</p>
         </div>
         <div class="box" id="box9">
-            <p>Hover too see transform: scaleX(1.5);</p>
+            <p>Hover too see transform: scaleY(1.5)</p>
         </div>
         <div class="box" id="box10">
-            <p>Hover too see transform: scaleY(1.5);</p>
+            <p>Hover too see transform: perspective(300px) rotateY(30deg) scaleZ(5) </p>
         </div>
         <div class="box" id="box11">
-            <p>Hover too see transform: scaleX(-1.5);</p>
+            <p>Hover too see transform: perspective(300px) rotateY(-30deg) scaleZ(5)
+
+            </p>
         </div>
         <div class="box" id="box12">
-            <p>Hover too see transform: scaleY(-1.5);</p>
+            <p>Hover too see
+                transform: perspective(300px) rotateX(30deg) scaleZ(5)
+            </p>
         </div>
     </div>
+    <footer>
+        <p>Change the limits according to you and see the magic.</p>
+    </footer>
 </body>
 
 </html>
