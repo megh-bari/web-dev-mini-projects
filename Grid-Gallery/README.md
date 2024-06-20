@@ -8,4 +8,4 @@ A responsive grid-based gallery showcasing images with hover effects.
 - Responsive design with media queries
 
 ### Preview
-    Codepen Link: https://codepen.io/megh-bari/pen/PovRGGR
+ Codepen Link: https://codepen.io/megh-bari/pen/PovRGGR
