@@ -7,18 +7,17 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Poppins", sans-serif;
   color: white;
   background: linear-gradient(to right, purple, yellow);
 }
 
 .container {
-  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
+  min-height: 100vh;
 }
 
 .box {
@@ -44,6 +43,7 @@ body {
 
 .left-text {
   flex-basis: 30%;
+  text-align: center;
 }
 
 .gallery {
