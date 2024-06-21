@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: black;
+  /* --card-color: rgb(215, 215, 213); */
+  --card-color: whitesmoke;
+  --background-color: #FFFFFF;
+  --box-shadow: 2px 2px 5px;
+}
+.dark {
+  --color: white;
+  --background-color: #111827;
+  --card-color: #1E293B;
+  --box-shadow: 3px 3px 5px #050709;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+.container {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 10px;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+body.dark svg.dark-toggle {
+  filter: invert(2) brightness(3) saturate(1%);
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  padding: 40px;
+  margin: 20px;
+  background-color: var(--card-color);
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  transition: all ease 1s;
+}
+
+.box:hover {
+  transform: translateY(-12px);
+}
+
+p {
+  margin-block: 10px;
+  color: grey;
+}
+
+@media screen and (max-width: 430px) {
+  .head {
+    font-size: 10px;
+  }
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+}
