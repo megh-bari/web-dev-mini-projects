@@ -1,3 +1,3 @@
 ## Project: BMI Calculator
 
-### Preview : https://megh-bari.github.io/web-dev-mini-projects/
+### Preview :https://bmi-calculator-eight-bice.vercel.app/
