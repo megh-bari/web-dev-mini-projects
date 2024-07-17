@@ -1,5 +1,3 @@
-## Project: Colorful Spinners
+## Project: BMI Calculator
 
-### Preview
-- Preview: https://stackblitz.com/edit/stackblitz-starters-we9sem?file=script.js
-- codepen : https://codepen.io/megh-bari/pen/LYKVqrM
+### Preview : https://megh-bari.github.io/web-dev-mini-projects/
