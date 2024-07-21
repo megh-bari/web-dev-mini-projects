@@ -1,3 +1,3 @@
-## Project: BMI Calculator
+## Project: Guess The Number
 
-### Preview :https://bmi-calculator-eight-bice.vercel.app/
+### Preview : https://guess-the-number-megh-bari.vercel.app/

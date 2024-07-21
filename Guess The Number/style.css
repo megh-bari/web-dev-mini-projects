@@ -147,7 +147,7 @@ footer a {
 
 @media only screen and (max-width: 600px) {
   .container {
-    max-width: 400px;
+    max-width: 380px;
   }
   .guessId {
     font-size: 16px;
@@ -159,7 +159,10 @@ footer a {
 
 @media only screen and (max-width: 380px) {
   .container {
-    max-width: 350px;
+    max-width: 340px;
+  }
+  h1{
+  font-size: 28px;
   }
   .guessId {
     font-size: 16px;
@@ -174,8 +177,11 @@ footer a {
 
 @media only screen and (max-width: 350px) {
   .container {
-    max-width: 300px;
+    max-width: 290px;
   }
+  h1{
+    font-size: 25px;
+    }
   .guessId {
     font-size: 16px;
   }
