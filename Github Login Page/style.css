@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  height: 600px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img {
+  height: 70px;
+  width: 70px;
+
+  text-align: center;
+  color: #232023;
+}
+
+.head {
+  margin: 24px 0px;
+  text-align: center;
+  font-size: 24px;
+  color: #504c50;
+}
+
+.login-box {
+  background-color: #afb7c01e;
+  width: 100%;
+  height: 250px;
+  padding: 15px 16px 18px 16px;
+  border: 1px solid #8ba0b570;
+  border-radius: 7px;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #8ba0b570;
+  outline: none;
+  transition: all 0.1s linear;
+}
+
+input:focus {
+  border: 2px solid rgba(0, 0, 255, 0.635);
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.lable {
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #232023;
+}
+
+.lable a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.635);
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  background: rgba(9, 135, 9, 0.989);
+  color: #fff;
+  cursor: pointer;
+}
+
+.sing-up {
+  width: 100%;
+  margin: 18px 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8ba0b570;
+  border-radius: 7px;
+}
+
+.sing-up span {
+  font-size: 14px;
+  color: #232023;
+}
+
+.sing-up a {
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 3px;
+  color: rgba(0, 0, 255, 0.635);
+}
+
+.sing-up a:hover {
+  text-decoration: underline;
+}
+
+.foot ul {
+  margin: 40px;
+  padding: 40px 16px;
+  list-style: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot p {
+  padding: 10px;
+  text-wrap: nowrap;
+  transition: all 0.2s linear;
+}
+
+.foot p:hover {
+  color: rgb(0, 0, 255);
+  text-decoration: underline;
+}
